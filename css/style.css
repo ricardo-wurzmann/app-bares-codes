@@ -1,0 +1,313 @@
+html{
+    font-size: 1rem;
+}
+main{
+    margin: 1rem;
+}
+h1{
+    font-size: 2rem;
+    color:black
+}
+p{color: black;}
+.headerpesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-color:darkgrey;
+    border-bottom-width: 0.05rem;
+    align-items: center;
+}
+.header_mapa{
+    display: flex;
+    flex-direction: row;
+    position:center;
+    top:0;
+    margin:1rem;
+    justify-content: center;
+
+}
+
+.headerperfil{
+    display: flex;
+    flex-direction: row;
+    top:0;
+    margin:1rem;
+    justify-content: center;
+}
+
+.ftperfil{
+    width: 5rem;
+    height: 5rem;
+}
+.filtro{
+    width: 3rem;
+    height: 3rem;
+
+}
+
+
+
+main{
+    margin-bottom: 2rem;
+}
+.titulo{
+    margin-bottom: 0.3rem;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.numeropessoamgs{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.relogio{
+    width: 3rem;
+    height: 3rem;
+}
+.pessoas{
+    width: 2rem;
+    height: 2rem;
+    padding-right: 15.69%;
+}
+
+.especificacao{
+    font-size: 0.969rem;
+}
+.numero{
+    margin-right: 0.8rem;
+    font-weight:bold  ;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: black;
+    border-top-width: 0.1rem;
+    background-color: white;
+}
+.botao{
+    margin-top: 0.2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.barrafav{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    justify-content: space-between;
+
+}
+
+.baresperfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+
+.iconao{
+    width: 3rem;
+    height: 3rem;
+}
+
+.iconespequenos{
+    display: flex;
+    flex-direction: row; 
+    width: 2rem;
+    height: 2rem;
+}
+
+.imagensfesta{
+    width: 6rem;
+    height: 6rem;
+}
+
+.escreva{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    margin-bottom: 2rem;
+}
+
+.imgamata{
+    width: 22rem;
+    height: 28rem;
+}
+
+.headeramata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.titulo{
+    font-weight:bold  ;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.ftestrelas{
+    width: 4.5rem;
+    height: 1.3rem;   
+}
+
+.comentario{
+    font-size: 0.7rem;
+}
+
+.headerfiltro{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+.filtrostot{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.confirmar{
+    display: flex;
+    justify-content: center;
+    padding-top: 62.69%;
+}
+
+.botaoo{
+    background-color: #b9d6f6;
+    text-decoration: none;
+    width: 8.69rem;
+    height: 3rem;
+    border-radius: 6.9rem;
+}
+
+.botaooo{
+    text-decoration: none;
+    font-size: 1.069rem;
+    font-weight: bold;
+    color: black;
+}
+
+
+.divBusca{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    height: 1.69rem;
+    width: 6.69rem;
+}
+
+.txtBusca{
+    border-radius: 6.69rem;
+    text-decoration: none;
+}
+
+.txtpesquisa{
+    border-radius: 6.69rem;
+    text-decoration: none;
+    width: 80%;
+    margin-left: 3.69%;
+    padding-left: 0.69rem;
+}
+
+.relogionome{
+    display: flex;
+    flex-direction: row;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    height: 1.5rem;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-color: black;
+    border: solid;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.15rem;
+    width: 1.2rem;
+    left: 0.1rem;
+    bottom: 0.1rem;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
