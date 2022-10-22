@@ -33,7 +33,35 @@ p{color: black;}
     flex-direction: row;
     top:0;
     margin:1rem;
+    justify-content: flex-start;
+}
+
+.nivel{
+    display: flex;
     justify-content: center;
+    color: goldenrod;
+}
+
+.nomeusuario{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.engrenagem{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 3rem;
+    height: 3rem;
+}
+
+.fixo{
+    position: absolute;
+    bottom: 60px;
+    right: 33%;
+    width: 7rem;
+    height: 7rem;
 }
 
 .ftperfil{
@@ -69,6 +97,14 @@ main{
     flex-direction: row;
     
 }
+
+.Overlay { position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    right: 0px; 
+    height: 50px; 
+    background-color: white; 
+    z-index: 100}
 
 
 .relogio{
@@ -139,15 +175,8 @@ footer{
 }
 
 .imagensfesta{
-    width: 6rem;
-    height: 6rem;
-}
-
-.escreva{
-    display: flex;
-    flex-direction: row;
-    background-color: gray;
-    margin-bottom: 2rem;
+    width: 10rem;
+    height: 6.5rem;
 }
 
 .imgamata{
@@ -179,6 +208,18 @@ footer{
 
 .comentario{
     font-size: 0.7rem;
+    color: blue;
+}
+
+.lista{
+    border: 0.1rem;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 0.1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .headerfiltro{
@@ -227,6 +268,11 @@ footer{
     text-decoration: none;
     height: 1.69rem;
     width: 6.69rem;
+    padding-left: 35% ;
+    padding-top: 2rem;
+    z-index: 1;
+    height: auto;
+    position: relative;
 }
 
 .txtBusca{
@@ -311,3 +357,13 @@ footer{
   .slider.round:before {
     border-radius: 50%;
   }
+
+  #googlemaps {
+    position:absolute;
+    width: 100% ;
+    height:100% ;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+  }
+  

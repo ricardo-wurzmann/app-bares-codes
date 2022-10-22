@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina pesquisa</title>
+    <title>Pagina bar</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,12 +14,15 @@
                     <h1 class="titulo">AMATA SP</h1>
                     <div class="rating">
                         <p>3,4</p>
-                        <img src="img/estrelas.png" class="ftestrelas">
+                        <img src="img/estrelas.png" class="ftestrelas" alt="Foto Estrelas">
                     </div>
                     <p class="comentario">Ler comentários...</p>
                 </div>
-                <img src="img/Amata.png" class="iconao">
+                <img src="img/Amata_redondo.png" class="iconao" alt="Icone Amata">
             </div>
+            <a class="lista" href="#" rel="">
+                <h3>Lista</h3>
+            </a>
         </header>
         <main>
             <div class="barrafav">
@@ -28,30 +31,31 @@
             <ul>
                 <li>Confirmados: 327</li>
                 <li>Amigos: 23</li>
-                <li>Deixar comentário:</li>
+                <li>
+                    <label for="Comentario">Deixar comentário:</label>
+                    <input type="text" id="Comentario" 
+                    name="Comentario" placeholder="Satisfatóirio">
+                </li>
             </ul>
-            <div class="escreva">
-                <p>Escreva aqui...</p>                
-            </div>
             <div class="barrafav">
                 <p>Fotos:</p>
             </div>
             <ul>
                 <li>
-                    <img src="img/foto_perfil1.png" class="imgamata">
+                    <img src="img/img_cortada.PNG" class="imgamata" alt="Foto Amata">
+                    <img src="img/enviar.png" class="fixo" alt="Enviar">
                 </li> 
             </ul>
-    
         </main>
         <footer>
             <a href="amigos.html">
-                <img class="botao" src="img/3 Pessoas.png">
+                <img class="botao" src="img/3Pessoas.png" alt="Botao 3 Pessoas">
             </a>
             <a href="mapa.html">
-                <img class="botao" src="img/Casinha.png">
+                <img class="botao" src="img/Casinha.png" alt="Botao Casinha">
             </a>
             <a href="perfil.html">
-                <img class="botao" src="img/pessoa solo.png">
+                <img class="botao" src="img/pessoa_solo.png" alt="Botao 1 Pessoa">
             </a>
         </footer>
     </body>
