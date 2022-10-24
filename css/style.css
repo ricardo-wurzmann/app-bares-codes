@@ -25,15 +25,6 @@ p{color: black;}
     border-bottom-width: 0.05rem;
     align-items: center;
 }
-.header_mapa{
-    display: flex;
-    flex-direction: row;
-    position:center;
-    top:0;
-    margin:1rem;
-    justify-content: center;
-
-}
 
 .headerperfil{
     display: flex;
