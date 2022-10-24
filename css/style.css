@@ -6,6 +6,7 @@
 html{
     font-size: 1rem;
     font-family: 'Archivo Narrow', sans-serif;
+    color: rgb(242,135, 5);
 }
 main{
     margin: 1rem;
@@ -250,10 +251,11 @@ footer{
     display: flex;
     justify-content: center;
     padding-top: 62.69%;
+    color: rgb(242,135, 5);
 }
 
 .botaoo{
-    background-color: #b9d6f6;
+    background-color: rgb(242,135, 5);
     text-decoration: none;
     width: 8.69rem;
     height: 3rem;
