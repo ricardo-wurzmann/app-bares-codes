@@ -1,0 +1,26 @@
+document.addEventListener('DOMContentLoaded',function(){
+    enviar=document.querySelector('.botao-enviar');
+
+    enviar.addEventListener('click',function(event){
+        barrafav=document.querySelectorAll('.barrafav')
+        input=document.querySelector('input');
+        texto=input.value;
+        console.log(texto)
+        main=document.querySelector('main');
+        novo_section=document.createElement('Section')
+        novo_div=document.createElement('div')
+        novo_div2=document.createElement('div')
+        novo_div.classList.add('msg-titulo-ivertido')
+        novo_div2.classList.add("bolha-resposta")
+        novo_section.classList.add('msg-resposta')
+        main.insertBefore(novo_section,barrafav[1])
+        novo_section.appendChild(novo_div)
+        novo_section.appendChild(novo_div2)
+        novo_h2=document.createElement('h2')
+        novo_div.appendChild(novo_h2)
+        novo_h2.innerHTML='Você'
+        novo_p=document.createElement('p')
+        novo_div2.appendChild(novo_p)
+        novo_p.innerHTML=texto
+    })
+})
